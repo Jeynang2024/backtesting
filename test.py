@@ -7,7 +7,7 @@ import datetime
 from datetime import date
 import pandas as pd
 from portfolio import *
-from stream import MovingAverageCrossover, MomentumStrategy, MeanReversion
+from strategy import MovingAverageCrossover, MomentumStrategy, MeanReversion
 
 @st.cache_data
 def fetch_data(stock_symbol, start, end):
